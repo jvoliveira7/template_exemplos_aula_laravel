@@ -42,7 +42,7 @@ class PessoaController extends Controller
         //     'cpf' => $request->cpf,
         // ]);
 
-        Pessoa::create($request->all());
+        //Pessoa::create($request->all());
 
         $nome = $request->nome;
         $idade = $request->idade;
