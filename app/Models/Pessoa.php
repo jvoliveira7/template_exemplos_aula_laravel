@@ -7,7 +7,7 @@ use App\Models\Perfil;
 class Pessoa extends Model
 {
     protected $table = 'pessoas';
-    protected $fillable = ['nome', 'idade','cpf'];
+    protected $fillable = ['nome', 'idade'];
 
     public function perfil(){
         return $this->hasOne(Perfil::class);
